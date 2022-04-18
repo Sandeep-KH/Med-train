@@ -1,0 +1,122 @@
+.bg_primary {
+    background-color: #2f74b7;
+  }
+  
+  .bg_secondary {
+    background-color: #f36320;
+  }
+  
+  .bg_tertiary {
+    background-color: #465b97;
+  }
+  
+  .bg_cardbody {
+    background-color: #8b9ed1;
+  }
+  
+  .bg_button {
+    background-color: #f36320;
+  }
+  
+  .fs-55 {
+    font-size: 55px;
+  }
+  
+  .fs-13 {
+    font-size: 13px;
+  }
+  
+  .bg_img {
+    background-image: url(./images/background_image.png);
+  }
+  
+  .card_banner {
+    border-top-left-radius: 76px;
+    border-top-right-radius: 76px;
+    margin-top: -35px;
+  }
+  
+  .border_radius {
+    border-radius: 50%;
+  }
+  
+  .accordian_margin {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .card_border_radius {
+    border-radius: 50px;
+  }
+  
+  .border_tab {
+    border-top-left-radius: 48px;
+    border-top-right-radius: 48px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 768px) {
+    #desktop {
+      display: none;
+    }
+    #mobile {
+      display: block;
+    }
+    .detail_icon {
+      width: 35px;
+    }
+    .detail_text {
+      font-size: 12px;
+    }
+    .footer_links {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    #desktop {
+      display: block;
+    }
+    #mobile {
+      display: none;
+    }
+  }
+  
+  .br-10 {
+    border-radius: 10px;
+  }
+  
+  .highlight {
+    color: #f36320;
+  }
+  
+  .med {
+    color: #1074bc;
+  }
+  
+  .h-60 {
+    height: 60px;
+  }
+  
+  .border_none {
+    border: none;
+  }
+  
+  .unselected {
+    color: #99ade3;
+  }
+  
+  .nav-link.active {
+    background-color: transparent !important;
+    color: white !important;
+    border: none;
+  }
+  
+  .nav-link:hover {
+    border: none;
+  }
+  
+  
